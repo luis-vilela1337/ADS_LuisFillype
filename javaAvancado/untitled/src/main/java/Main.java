@@ -9,8 +9,11 @@ public class Main {
 
 
         System.out.println("Arrays");
-        for (int i =0; i< animais.length; i++) {
-            System.out.println(animais[i].getNome());
+//        for (int i =0; i< animais.length; i++) {
+//            System.out.println(animais[i].getNome());
+//        }
+        for (Animal animal: animais) {
+            System.out.println(animal.getNome());
         }
     }
 }
